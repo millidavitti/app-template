@@ -11,7 +11,7 @@ export default function Flex({
 	children,
 	className,
 	htmlProps,
-	flex = "column",
+	flex = "row",
 }: FlexColumn) {
 	return (
 		<>
